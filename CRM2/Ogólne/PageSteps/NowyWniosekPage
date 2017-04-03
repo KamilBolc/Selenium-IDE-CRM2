@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>NowyWniosekPage</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">NowyWniosekPage</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=3</td>
+	<td>Klienci</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=163</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=163</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=163</td>
+	<td>nowy wniosek</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input</td>
+	<td>75123104544</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=kwota_zadana</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=kwota_zadana</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=kwota_zadana</td>
+	<td>500</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=id_grupy_produktu</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=id_grupy_produktu</td>
+	<td>label=Pożyczka Ratalna 5</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=czy_zainteresowany_ubezpieczeniem</td>
+	<td>label=Nie dotyczy</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=czy_zainteresowany_ubezpieczeniem</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>css=div.dhxform_label.dhxform_label_align_left &gt; div.dhxform_label_nav_link</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=id_zrodla_pozyskania_szczegol</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=id_zrodla_pozyskania_szczegol</td>
+	<td>label=Telegazeta Polsat</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>css=div.dhxform_item_label_right.sekcja-151 &gt; div.dhxform_label.dhxform_label_align_left &gt; div.dhxform_label_nav_link</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=nazwisko</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=nazwisko</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=imie</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[7]/div/div/div[3]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[4]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[4]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[4]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=z_id_ustalono_na_podstawie</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[3]/div/div/div[2]/div/fieldset/div/div[2]/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[3]/div/div/div[2]/div/fieldset/div/div[2]/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[7]/div/div/div/div[2]/div/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[6]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/fieldset/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[6]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/fieldset/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/div/div/fieldset/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[6]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div/div/div/div/div/div/div/div/div/div/div[3]/fieldset/legend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[7]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div/div/div/div/div/div/div/div/div/b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div/div/div/div/div/div/div/div/div/b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[7]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div[6]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[7]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td[6]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[6]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/div/fieldset/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dhtmlx_popup_button &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/table/tbody/tr[2]/td/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[4]/div/div/div/div/div/label/b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//a/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/table/tbody/tr[2]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=251</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClick</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div[2]/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div[2]/table/tbody/tr[2]/td[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td[div[contains(.,&quot;Anuluj wniosek&quot;)]]//text()</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//td[div[contains(.,&quot;Anuluj wniosek&quot;)]]//text()</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dhtmlx_popup_button &gt; div</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

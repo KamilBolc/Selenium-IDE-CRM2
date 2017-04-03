@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://192.168.0.44/" />
+<title>nastepnyMetlifeNaKliencie</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">nastepnyMetlifeNaKliencie</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>szpik/public/daneklienta/wniosek/wniosek/mode/metlife</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=pesel</td>
+	<td>${pesel}</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>css=div.btn_txt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Pauza</td>
+	<td>sleep</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//fieldset/div/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[13]/div/div/div/div/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[13]/div/div/div/div/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=id_zrodla_pozyskania_szczegol</td>
+	<td>Telegazeta Polsat</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/fieldset/div/div[2]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[7]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=ilosc_uposazonych</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=imie_1</td>
+	<td>Kamil</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nazwisko_1</td>
+	<td>Bolc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=data_urodzenia_1</td>
+	<td>2004-02-04</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[9]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/div/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[4]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=183</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=183</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

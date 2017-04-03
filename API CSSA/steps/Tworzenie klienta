@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://dev2.capitalservice.pl/" />
+<title>Tworzenie klienta</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Tworzenie klienta</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.bogus.ovh.org/generatory/all.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=pesel_f</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=pesel_m</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pesel_birth</td>
+	<td>35</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/p/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>id=pesel</td>
+	<td>pesel</td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>id=icn</td>
+	<td>nr_dowodu_osobistego</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/apps/api-ph-formularze/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=SendApplication</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>link=SendApplication</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=kwota_wnioskowana</td>
+	<td>5000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ilosc_rat</td>
+	<td>31</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pesel</td>
+	<td>${pesel}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=nazwisko</td>
+	<td>Kamil</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=imie</td>
+	<td>Bolc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=nr_dowodu_osobistego</td>
+	<td>${nr_dowodu_osobistego}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=waznosc_nr_dowodu_osobistego</td>
+	<td>2020-09-20</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=zam_kod_pocztowy</td>
+	<td>07-410</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=zam_miejscowosc</td>
+	<td>Ostrołęka</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=zam_ulica</td>
+	<td>Sienkiewicza</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=zam_nr_budynku</td>
+	<td>43</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=zam_nr_lokalu</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_rodzaj_lokalu</td>
+	<td>label=Dom</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_statusu_mieszkania</td>
+	<td>label=Własne</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_okresu_zamieszkania</td>
+	<td>label=powyżej 5 lat</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=przepisz_adres</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=telefon_komorkowy</td>
+	<td>123789852</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=telefon_kontaktowy_1</td>
+	<td>965432141</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=email</td>
+	<td>dj_zierix@poczta.fm</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_wyksztalcenie</td>
+	<td>label=Wyższe magisterskie</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_stan_cywilny</td>
+	<td>label=Mężatka/Żonaty</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=liczba_dzieci</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_medium_wyplaty</td>
+	<td>label=Bank Pocztowy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=nr_rachunku</td>
+	<td>57149609307828622052519758</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_formy_akceptacji_zgod</td>
+	<td>label=zgody wyrażone na oświadczeniu papierowym</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_przetwarzanie_danych</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_komunikacja_elektroniczna</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_marketing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_zwrot_nadplaty_na_rachunek</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_bazy_zewnetrzne</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_udostepnianie_informacji_bik</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_kontakt_osobisty_pracownika</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=zgoda_potwierdzenie_prawdziwosci</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_typu_dochodu</td>
+	<td>label=Umowa o pracę</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_typu_umowy</td>
+	<td>label=Na czas nieokreślony</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=data_dochodu_od</td>
+	<td>2015-07-13</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=data_dochodu_do</td>
+	<td>2019-08-19</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=czy_w_okresie_wypowiedzenia</td>
+	<td>label=Nie</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=stanowisko</td>
+	<td>label=Naczelnik/Kierownik/Brygadzista</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=id_branza</td>
+	<td>label=Administracja państwowa</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=kwota_dochodu_netto</td>
+	<td>15000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pracodawca_nazwa</td>
+	<td>wow</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pracodawca_nip</td>
+	<td>78988</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pracodawca_telefon</td>
+	<td>852741111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=kwota_wydatkow</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=miesieczne_zobowiazania_kredytowe</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=agent_kod_oddzialu</td>
+	<td>ABC123</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=agent_pesel</td>
+	<td>70042000159</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=agent_imie</td>
+	<td>Agent</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=agent_nazwisko</td>
+	<td>Tomek</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=agent_dane_dodatkowe</td>
+	<td>{&quot;ip&quot;:&quot;192.168.0.41&quot;}</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=wyslij</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//body/table/tbody/tr/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//tbody/tr/td[@id=&quot;qa-id_wniosku&quot;]/text()</td>
+	<td>id_wniosku</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[@id=&quot;qa-id_oferty-1&quot;]/text()</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeText</td>
+	<td>//td[@id=&quot;qa-id_oferty-1&quot;]/text()</td>
+	<td>id_oferty</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>${id_wniosku}</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

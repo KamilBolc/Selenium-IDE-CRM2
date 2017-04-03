@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>klikanieSystemu</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">klikanieSystemu</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=1</td>
+	<td>Administracja</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div/div/div/div[2]/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div/div/div[2]/div/div/div/div</td>
+	<td>Zarządzanie profilami</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=nazwa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=nazwa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[3]/div/div/div/div[3]/div/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div/div/div[2]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/div/div[2]/div/span</td>
+	<td>Profile Użytkowników</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div/div/div[3]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/div/div[3]/div/span</td>
+	<td>Profile zasoby</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div/div/div[4]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/div/div[4]/div/span</td>
+	<td>Zarządzanie słownikami</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=nazwa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=nazwa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div/div/div[5]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/div/div[5]/div/span</td>
+	<td>Ustawienia systemowe</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=193</td>
+	<td>Pracownicy</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div/div</td>
+	<td>Dodaj pracownika</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div[2]/div</td>
+	<td>Edytuj pracownika</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.dhtmlx_popup_title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div/div[@class='dhtmlx_popup_button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div[3]/div</td>
+	<td>Usuń pracownika</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>css=div.dhtmlx_popup_title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=div.dhtmlx_popup_button &gt; div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div[4]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/div[2]/div/div/div/div[2]/div/div/div[4]/div</td>
+	<td>Historia zmian</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[3]/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div/div/div[5]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/div/div/div[5]/div</td>
+	<td>edycja Stanowiska</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div/div[@class='dhtmlx_popup_button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div/div/div[6]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[2]/div/div/div[6]/div</td>
+	<td>Dodaj Zdjęcie</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div/div[@class='dhtmlx_popup_button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div/div[@class='dhtmlx_popup_button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td/div/div/div/div[5]/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//td/div/div/div/div[5]/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//td/div/div/div/div[5]/img</td>
+	<td>Przejdż na ostatnia liste</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=196</td>
+	<td>Urlopy</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=199</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=199</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[2]/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/div/div[2]/div</td>
+	<td>administracja</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=259</td>
+	<td>lista nieobecnosci zarzadzanie</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=237</td>
+	<td>wnioski urlopowe administracja</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=238</td>
+	<td>saldo pracowników</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=244</td>
+	<td>Generuj raport</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=247</td>
+	<td>Wyślij wniosek/delegacje w imieniu pracownika</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=199</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=199</td>
+	<td>Lista Nieobecności</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/table/tbody/tr[2]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/table/tbody/tr[2]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=225</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=225</td>
+	<td>Wnioski urlopowe</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=226</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=226</td>
+	<td>wyślij nowy wniosek</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//legend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//legend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=254</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=254</td>
+	<td>Lista Delegacji</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/table/tbody/tr[2]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/table/tbody/tr[2]/td</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=200</td>
+	<td>szkolenia i rozwój</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=202</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=202</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=202</td>
+	<td>szkolenia</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=203</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=203</td>
+	<td>testy</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=201</td>
+	<td>Wnioski</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=204</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=204</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=204</td>
+	<td>Wysyłanie</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=205</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=205</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=205</td>
+	<td>Odebranie</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=102</td>
+	<td>dane Użytkownika</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=102</td>
+	<td>dane Użytkownika</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=102</td>
+	<td>dane Użytkownika</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=253</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=253</td>
+	<td>wejdz do CRM2</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=3</td>
+	<td>Klienci</td>
+</tr>

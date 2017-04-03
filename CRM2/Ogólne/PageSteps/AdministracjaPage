@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+
+</tbody></table>
+</body>
+</html>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=1</td>
+	<td>Administracja</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=21</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=21</td>
+	<td>Uprawnienia zasoby</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=12</td>
+	<td>Zarządzanie uprawnieniami</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td>dodaj uprawnienie</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[3]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[3]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=190</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=190</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=190</td>
+	<td>Zarządzanie drukami</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=729</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=729</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=729</td>
+	<td>słownik profile</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=31</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=31</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=31</td>
+	<td>Zarządzanie słownikami</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=27</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=27</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=27</td>
+	<td>Ustawienia systemowe</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=267</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=267</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=267</td>
+	<td>Centrum</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div/table/tbody/tr[3]/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=258</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=258</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=258</td>
+	<td>Mapowanie słowników</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div</td>
+	<td></td>
+</tr>

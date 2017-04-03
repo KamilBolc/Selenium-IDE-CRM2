@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+
+</tbody></table>
+</body>
+</html>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=271</td>
+	<td>Zadania</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=272</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=272</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=272</td>
+	<td>lista zadan</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=711</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=711</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=711</td>
+	<td>zadania biezace</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=710</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=710</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=710</td>
+	<td>historia zadan</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//label</td>
+	<td></td>
+</tr>

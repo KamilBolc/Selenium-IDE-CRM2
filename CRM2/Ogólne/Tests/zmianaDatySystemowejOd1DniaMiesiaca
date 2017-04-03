@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd01">zamianaDatyOd01</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd02">zmianaDatyOd02</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd03">zmianaDatyOd03</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd04">zmianaDatyOd04</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd05">zmianaDatyOd05</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd06">zmianaDatyOd06</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd07">zmianaDatyOd07</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd08">zmianaDatyOd08</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd09">zmianaDatyOd09</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd10">zmianaDatyOd10</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd11">zmianaDatyOd11</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd12">zmianaDatyOd12</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd13">zmianaDatyOd13</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd14">zmianaDatyOd14</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd15">zmianaDatyOd15</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd16">zmianaDatyOd16</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd17">zmianaDatyOd17</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd18">zmianaDatyOd18</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd19">zmianaDatyOd19</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd20">zmianaDatyOd20</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd21">zmianaDatyOd21</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd22">zmianaDatyOd22</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd23">zmianaDatyOd23</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd24">zmianaDatyOd24</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd25">zmianaDatyOd25</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd26">zmianaDatyOd26</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd27">zmianaDatyOd27</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd28">zmianaDatyOd28</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd29">zmianaDatyOd29</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd30">zmianaDatyOd30</a></td></tr>
+<tr><td><a href="../PageSteps/zmianaDataSystemowej/zmianaDatyOd31">zmianaDatyOd31</a></td></tr>
+</tbody></table>
+</body>
+</html>

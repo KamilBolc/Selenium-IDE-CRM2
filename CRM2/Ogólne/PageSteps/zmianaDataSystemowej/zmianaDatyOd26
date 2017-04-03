@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>zmianaDatyOd26</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">zmianaDatyOd26</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAt</td>
+	<td>id=1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=12</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=258</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=27</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=27</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>id=27</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//tr[4]/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>doubleClickAt</td>
+	<td>//tr[4]/td[3]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Id_pozyczki</td>
+	<td>poz</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>tsix</td>
+	<td>day</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>RokMiesiac</td>
+	<td>rokmiesiac</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=wartosc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=wartosc</td>
+	<td>${rokmiesiac}${day}</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[4]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>openWindow</td>
+	<td>/szpik/public/cron/odsetki/zlecnaliczanie/id_pozyczki/${poz}</td>
+	<td>Id_window</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

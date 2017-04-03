@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>PrzedstawicielePage</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">PrzedstawicielePage</td></tr>
+</thead><tbody>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>id=468</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=469</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=imie</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=imie</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=nazwisko</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[6]/div/label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/fieldset/legend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=469</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=469</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[5]/div[3]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//tr[5]/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=nazwa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=nazwa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

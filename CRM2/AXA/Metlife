@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://192.168.0.41/" />
+<title>AXA</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">AXA</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>http://www.bogus.ovh.org/generatory/all.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=pesel_birth</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=pesel_birth</td>
+	<td>35</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>id=pesel</td>
+	<td>pesel</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/szpik/public/userpage/index/index</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>szpik/public/daneklienta/wniosek/wniosek/mode/metlife</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=pesel</td>
+	<td>${pesel}</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>css=div.btn_txt</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Pauza</td>
+	<td>sleep</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=id_oddzialu</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=id_oddzialu</td>
+	<td>BIAŁYSTOK</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=kwota_zadana</td>
+	<td>500</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[13]/div/div/div/div/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=id_zrodla_pozyskania_szczegol</td>
+	<td>Telegazeta Polsat</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Imie</td>
+	<td>Imie</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=imie</td>
+	<td>${Imie}</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Nazwisko</td>
+	<td>Nazwisko</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nazwisko</td>
+	<td>${Nazwisko}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nr_dowodu_osobistego</td>
+	<td>AAA111111</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[7]/div/div/div[3]/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Kod_pocztowy</td>
+	<td>Kp</td>
+</tr>
+<tr>
+	<td>sendKeys</td>
+	<td>name=z_kod_pocztowy</td>
+	<td>${Kp}</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Miejscowosc 	</td>
+	<td>Mi</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=z_miejscowosc</td>
+	<td>${Mi}</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Ulica</td>
+	<td>Ul</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=z_ulica</td>
+	<td>${Ul}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=z_nr_budynku </td>
+	<td>javascript{Math.floor(Math.random()*250);}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=z_nr_lokalu</td>
+	<td>javascript{Math.floor(Math.random()*250);}</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Telefon_kom</td>
+	<td>kom</td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Telefon_stac</td>
+	<td>stac</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=stac_numer</td>
+	<td>${stac}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=kom_numer</td>
+	<td>${kom}</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[9]/div/div/div/div[2]/div/div/div[3]/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeEval</td>
+	<td>Email</td>
+	<td>email</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=email</td>
+	<td>${email}</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[7]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=ilosc_uposazonych</td>
+	<td>label=1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=imie_1</td>
+	<td>Kamil</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=nazwisko_1</td>
+	<td>Bolc</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=data_urodzenia_1</td>
+	<td>2004-02-04</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[9]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div/div/div/div/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[3]/div/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[4]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>${sleep}</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=183</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=183</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

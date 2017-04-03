@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+
+</tbody></table>
+</body>
+</html>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=3</td>
+	<td>Klienci</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=236</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=236</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=236</td>
+	<td>Monitoring</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/div/div[5]/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=opt_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=opt_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=opt_1_do</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[19]/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=submit1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//tr[2]/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=163</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=372</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=372</td>
+	<td>przenies klienta</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=szukaj</td>
+	<td>75123104544</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=388</td>
+	<td>zmien status klienta</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=388</td>
+	<td>zmien status klienta</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=szukaj</td>
+	<td>35600</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=707</td>
+	<td>zgłoś upadłość</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=707</td>
+	<td>zgłoś upadłość</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=szukaj</td>
+	<td>75123104544</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[2]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div[@title=&quot;Close&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=387</td>
+	<td>Zapytanie o oferte</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>id=387</td>
+	<td>Zapytanie o oferte</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//legend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//legend</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//fieldset/div/div/div/div[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>name=id_zrodla_pozyskania_szczegol</td>
+	<td>Telegazeta Polsat</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=id_zrodla_pozyskania_szczegol</td>
+	<td>Telegazeta Polsat</td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[8]/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[9]/fieldset/div/div/div/div/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[10]/div/table/tbody/tr/td[2]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div/div[@class='dhtmlx_popup_button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>//div/div[@class='dhtmlx_popup_button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div/div[@class='dhtmlx_popup_button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=432</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>id=432</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=pesel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=3</td>
+	<td>Klienci</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div[5]/div[10]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[5]/div[10]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div[10]/div</td>
+	<td>ubezpieczenia</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=727</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>id=760</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=727</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>id=727</td>
+	<td>AXA</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=pesel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=3</td>
+	<td>Klienci</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div[5]/div[10]/div</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div[5]/div[10]/div</td>
+	<td>ubezpieczenia</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>id=760</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAtAndWait</td>
+	<td>id=760</td>
+	<td>Metlife</td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>name=pesel</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=3</td>
+	<td>Klienci</td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div[4]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//td[3]/div/div[2]/div/div/div/div/div/div/table/tbody/tr/td/div/div[2]/div/div[5]/div[4]/div/span</td>
+	<td>Szukaj</td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>//div/div/div/div/div[5]/div[5]/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>mouseOver</td>
+	<td>//div/div/div/div/div[5]/div[5]/img</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAt</td>
+	<td>//div/div/div/div/div[5]/div[5]/img</td>
+	<td></td>
+</tr>
